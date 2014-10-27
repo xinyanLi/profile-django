@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}Profile{% endblock %}</title>
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" media="screen">
+	{% block head %}{% endblock %}
+</head>
+<body>
+	<div class="navbar navbar-default" role="navigation" style='margin-bottom:0px;padding-right: 0'>
+	       hjgjgjh
+	</div>
+</div>
+	
+	{% block content %}{% endblock %}
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+	{% block js %}{% endblock %}
+</body>
+</html>
